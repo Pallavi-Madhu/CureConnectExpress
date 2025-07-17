@@ -1,5 +1,14 @@
 {
+  "name": "cureconnect-express",
+  "version": "1.0.0",
+  "description": "Express backend for CureConnect",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node express.js"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }

@@ -9,10 +9,10 @@
     const supabase_api = process.env.SUPABASE_API;
     const supabase = createClient(supabase_url, supabase_api);
 
+
     router.post('/signup', async(req,res) =>{
         console.warn("request reached")
-    //     console.log("URL:", supabase_url);
-    // console.log("KEY:", supabase_api);
+        
 
         try{
             const {email,password,name} = req.body;
@@ -65,6 +65,7 @@
     });
 
     router.post('/signin', async(req,res) => {
+        console.warn("Request made")
         try{
             const{email,password} = req.body;
             console.warn(email,password)

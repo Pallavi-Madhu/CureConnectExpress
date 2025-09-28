@@ -8,9 +8,20 @@
     "start": "node express.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.53.0",
+    "@supabase/supabase-js": "^2.56.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rose-francis/CureConnectExpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rose-francis/CureConnectExpress/issues"
+  },
+  "homepage": "https://github.com/rose-francis/CureConnectExpress#readme"
 }
